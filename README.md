@@ -12,7 +12,7 @@ Build id: 20210910-1417 <br>
 java-11-openjdk-amd64 <br>
 
 <strong>Banco:</strong> <br>
-PostgreSQL 8.1-407 <br>
+PostgreSQL 9.5.21 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit <br>
 User: postgres <br>
 Password: 1234 <br>
 Port: 5432 <br>
