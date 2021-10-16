@@ -22,3 +22,6 @@ Database: db_vendas <br>
 <strong>Tomcat:</strong>  <br>
 v7.0
  <br>
+
+<strong>Converter o projeto em Maven Project:</strong>  <br>
+No Eclipse você pode clicar com o botão direito em cima do projeto, escolher a opção Configure > Convert to Maven Project. Na tela que abrir pode alterar o que preferir e clicar em Finish.
