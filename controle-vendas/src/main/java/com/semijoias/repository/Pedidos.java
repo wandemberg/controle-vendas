@@ -61,10 +61,10 @@ public class Pedidos implements Serializable {
 		return (Pedido) criteria.uniqueResult();
 	}
 	
-	public Pedido obterPedidoPeloCodigo(Long codigo) {
+	public Pedido obterPedidoPeloCodigo(String codigo) {
         	Session session = manager.unwrap(Session.class);
         	
-        	Query query = session.createQuery("SELECT * FROM pessoa WHERE codigo = "+codigo);
+        	Query query = session.createQuery("SELECT * FROM pedido WHERE codigo = "+codigo);
             
     		return (Pedido) query.uniqueResult();
     }
