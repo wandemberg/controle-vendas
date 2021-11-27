@@ -8,6 +8,7 @@ import javax.persistence.EntityManager;
 
 import org.hibernate.Criteria;
 import org.hibernate.FetchMode;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
@@ -59,5 +60,13 @@ public class Pedidos implements Serializable {
 		
 		return (Pedido) criteria.uniqueResult();
 	}
+	
+	public Pedido obterPedidoPeloCodigo(Long codigo) {
+        	Session session = manager.unwrap(Session.class);
+        	
+        	Query query = session.createQuery("SELECT * FROM pessoa WHERE codigo = "+codigo);
+            
+    		return (Pedido) query.uniqueResult();
+    }
 
 }
