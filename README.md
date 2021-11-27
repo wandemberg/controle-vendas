@@ -1,27 +1,27 @@
 # controle-vendas
   Trabalho de V&amp;V. Sistema de controle de vendas.
 
-Endereço acesso ao sistema:
+<strong>Endereço acesso ao sistema:</strong> <br>
 http://localhost:8080/vendas/
 
-Eclipse:
-Version: 2021-09 (4.21.0)
-Build id: 20210910-1417
+<strong>Eclipse:</strong> <br>
+Version: 2021-09 (4.21.0) <br>
+Build id: 20210910-1417 <br>
 
-Java Build Path: 
-java-11-openjdk-amd64
+<strong>Java Build Path do Projeto Eclipse:</strong>  <br>
+java-11-openjdk-amd64 <br>
 
-Banco:
-PostgreSQL 8.1-407.jdbc3
-User: postgres
-Password: 1234
-Port: 5432
-Hostname: localhost
-Database: db_vendas
+<strong>Banco:</strong> <br>
+PostgreSQL 9.5.21 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit <br>
+User: postgres <br>
+Password: 1234 <br>
+Port: 5432 <br>
+Hostname: localhost <br>
+Database: db_vendas <br>
 
-			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://127.0.0.1:5432/db_vendas" />
-			<property name="javax.persistence.jdbc.user" value="postgres" />
-			<property name="javax.persistence.jdbc.password" value="1234" />
-
-Tomcat: 
+<strong>Tomcat:</strong>  <br>
 v7.0
+ <br>
+
+<strong>Converter o projeto em Maven Project:</strong>  <br>
+No Eclipse você pode clicar com o botão direito em cima do projeto, escolher a opção Configure > Convert to Maven Project. Na tela que abrir pode alterar o que preferir e clicar em Finish.
