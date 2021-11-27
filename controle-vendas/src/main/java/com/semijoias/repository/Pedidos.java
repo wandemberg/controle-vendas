@@ -69,4 +69,5 @@ public class Pedidos implements Serializable {
     		return (Pedido) query.uniqueResult();
     }
 
+	
 }
