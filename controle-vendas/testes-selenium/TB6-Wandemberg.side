@@ -1,0 +1,650 @@
+{
+  "id": "a3f7db17-7ef7-4cd9-84bb-5de5d4b2a9cc",
+  "version": "2.0",
+  "name": "TB6-Wandemberg",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "b7c4b93b-b5d3-4660-a2b3-d902728834d7",
+    "name": "teste-CT01",
+    "commands": [{
+      "id": "92b51e2a-76b6-4810-9d72-b8332d5e74da",
+      "comment": "",
+      "command": "open",
+      "target": "/vendas/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1322da7f-f5cd-450d-a42e-b961c8f6a064",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "356bb17a-3ad6-4253-a6cb-23243571e7b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06886e7-df64-440c-9f6c-b4c256f5ed43",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cadastros",
+      "targets": [
+        ["linkText=Cadastros", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39fd0250-fbe3-48df-8737-76e63d8fc7e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-state-hover > .ui-menuitem-text",
+      "targets": [
+        ["css=.ui-state-hover > .ui-menuitem-text", "css:finder"],
+        ["xpath=//div[@id='j_idt15:j_idt16']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82ecbfba-a336-4c98-81cd-fe3b9519aede",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt14:j_idt17",
+      "targets": [
+        ["id=j_idt14:j_idt17", "id"],
+        ["linkText=Peças", "linkText"],
+        ["css=#j_idt14\\3Aj_idt17", "css:finder"],
+        ["xpath=//a[@id='j_idt14:j_idt17']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vendas/pecas/CadastroPeca.xhtml')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Peças')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "280c55f2-c514-4fd2-8369-f207c7bade14",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmCadastro\\3Aj_idt37 > .ui-button-text",
+      "targets": [
+        ["css=#frmCadastro\\3Aj_idt37 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmCadastro:j_idt37']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b644cfb7-7df9-4087-abfd-d8623dda0521",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmPesquisa:codigo",
+      "targets": [
+        ["id=frmPesquisa:codigo", "id"],
+        ["name=frmPesquisa:codigo", "name"],
+        ["css=#frmPesquisa\\3A codigo", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:codigo']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "978c0654-0db0-4ee6-9967-147f4c100f13",
+      "comment": "",
+      "command": "type",
+      "target": "id=frmPesquisa:codigo",
+      "targets": [
+        ["id=frmPesquisa:codigo", "id"],
+        ["name=frmPesquisa:codigo", "name"],
+        ["css=#frmPesquisa\\3A codigo", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:codigo']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "7bd4b86d-c5a8-46e9-aff5-337f9b74d96b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmPesquisa\\3Aj_idt34 > .ui-button-text",
+      "targets": [
+        ["css=#frmPesquisa\\3Aj_idt34 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmPesquisa:j_idt34']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3009e6ad-e588-4b30-884f-723f47005270",
+    "name": "teste-CT02",
+    "commands": [{
+      "id": "0eeaa690-24ee-4702-8996-dabf7824af34",
+      "comment": "",
+      "command": "open",
+      "target": "/vendas/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1a4fb69-edb3-41b8-b660-c382b9f69f35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3fbdaf8-08ba-4056-b4cd-77027d1361a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19018e51-0bbe-43c8-89ef-326f7164e303",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cadastros",
+      "targets": [
+        ["linkText=Cadastros", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73f2e1b-0a74-4c89-8d5d-3e7fc66938a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-state-hover > .ui-menuitem-text",
+      "targets": [
+        ["css=.ui-state-hover > .ui-menuitem-text", "css:finder"],
+        ["xpath=//div[@id='j_idt15:j_idt16']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3369f627-e7de-4d20-a56a-2af09904cc1a",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt14:j_idt17",
+      "targets": [
+        ["id=j_idt14:j_idt17", "id"],
+        ["linkText=Peças", "linkText"],
+        ["css=#j_idt14\\3Aj_idt17", "css:finder"],
+        ["xpath=//a[@id='j_idt14:j_idt17']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vendas/pecas/CadastroPeca.xhtml')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Peças')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "accf0b39-9ae4-4a70-b047-958da02d7330",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmCadastro\\3Aj_idt37 > .ui-button-text",
+      "targets": [
+        ["css=#frmCadastro\\3Aj_idt37 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmCadastro:j_idt37']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7758341a-5a82-4479-a2b6-8232c8191d06",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmPesquisa:codigo",
+      "targets": [
+        ["id=frmPesquisa:codigo", "id"],
+        ["name=frmPesquisa:codigo", "name"],
+        ["css=#frmPesquisa\\3A codigo", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:codigo']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9cb5d4b-0658-4a81-b421-9285ace13334",
+      "comment": "",
+      "command": "type",
+      "target": "id=frmPesquisa:codigo",
+      "targets": [
+        ["id=frmPesquisa:codigo", "id"],
+        ["name=frmPesquisa:codigo", "name"],
+        ["css=#frmPesquisa\\3A codigo", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:codigo']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "9999"
+    }, {
+      "id": "0c815902-7bda-4663-8fab-e2856fb70ce3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmPesquisa\\3Aj_idt34 > .ui-button-text",
+      "targets": [
+        ["css=#frmPesquisa\\3Aj_idt34 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmPesquisa:j_idt34']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b04cc312-cf27-4730-b752-fb7137f31774",
+    "name": "teste-CT03",
+    "commands": [{
+      "id": "f481a27d-1c7c-4c38-be96-cfa90effc8d8",
+      "comment": "",
+      "command": "open",
+      "target": "/vendas/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7040d99-c285-4210-ba09-e825568d5a2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16bcea43-abaa-446c-b508-f25351dbf5e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c83a796-fcf7-47d4-8ff6-9987211ba395",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cadastros",
+      "targets": [
+        ["linkText=Cadastros", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc0023e-2a83-4b37-86d1-57cac21c7756",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-state-hover > .ui-menuitem-text",
+      "targets": [
+        ["css=.ui-state-hover > .ui-menuitem-text", "css:finder"],
+        ["xpath=//div[@id='j_idt15:j_idt16']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb395967-1f31-42f3-a465-57e2030e493b",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt14:j_idt17",
+      "targets": [
+        ["id=j_idt14:j_idt17", "id"],
+        ["linkText=Peças", "linkText"],
+        ["css=#j_idt14\\3Aj_idt17", "css:finder"],
+        ["xpath=//a[@id='j_idt14:j_idt17']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vendas/pecas/CadastroPeca.xhtml')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Peças')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56026e98-fab2-47f0-8e1a-b3bbaa84e79e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmCadastro\\3Aj_idt37 > .ui-button-text",
+      "targets": [
+        ["css=#frmCadastro\\3Aj_idt37 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmCadastro:j_idt37']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4f65e7d-1d38-4292-bd4f-13d955d1926e",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmPesquisa:nome",
+      "targets": [
+        ["id=frmPesquisa:nome", "id"],
+        ["name=frmPesquisa:nome", "name"],
+        ["css=#frmPesquisa\\3Anome", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f15dd641-fee4-44d2-a5df-6372f989a5d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=frmPesquisa:nome",
+      "targets": [
+        ["id=frmPesquisa:nome", "id"],
+        ["name=frmPesquisa:nome", "name"],
+        ["css=#frmPesquisa\\3Anome", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "sensor B"
+    }, {
+      "id": "b2ef254f-ad63-440d-89fd-9784d476ca2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmPesquisa\\3Aj_idt34 > .ui-button-text",
+      "targets": [
+        ["css=#frmPesquisa\\3Aj_idt34 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmPesquisa:j_idt34']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa760336-5486-47d7-8c7f-4a07b73a8cb7",
+    "name": "teste-CT04",
+    "commands": [{
+      "id": "b5042282-171d-4eb1-af8e-d8fab35d8678",
+      "comment": "",
+      "command": "open",
+      "target": "/vendas/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "422d332f-178d-4dc9-a010-8916b04b19cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "560631b0-5a0e-480c-93ca-39a057c45e47",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63954d5a-f907-4e08-95e6-e383d19a26c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cadastros",
+      "targets": [
+        ["linkText=Cadastros", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c1f4e9-e5d9-48c6-a599-bcc4aebe88ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-state-hover > .ui-menuitem-text",
+      "targets": [
+        ["css=.ui-state-hover > .ui-menuitem-text", "css:finder"],
+        ["xpath=//div[@id='j_idt15:j_idt16']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "498d81c5-f23a-4e7b-8e44-755f038e4436",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt14:j_idt17",
+      "targets": [
+        ["id=j_idt14:j_idt17", "id"],
+        ["linkText=Peças", "linkText"],
+        ["css=#j_idt14\\3Aj_idt17", "css:finder"],
+        ["xpath=//a[@id='j_idt14:j_idt17']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vendas/pecas/CadastroPeca.xhtml')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Peças')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ed3f12-4793-44c1-bcd3-c5b45d04bb9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmCadastro\\3Aj_idt37 > .ui-button-text",
+      "targets": [
+        ["css=#frmCadastro\\3Aj_idt37 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmCadastro:j_idt37']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4694b3e5-9f20-440b-9f96-eb3ff0cb3657",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmPesquisa:nome",
+      "targets": [
+        ["id=frmPesquisa:nome", "id"],
+        ["name=frmPesquisa:nome", "name"],
+        ["css=#frmPesquisa\\3Anome", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0873b6-e00c-40f2-9167-a73633af0271",
+      "comment": "",
+      "command": "type",
+      "target": "id=frmPesquisa:nome",
+      "targets": [
+        ["id=frmPesquisa:nome", "id"],
+        ["name=frmPesquisa:nome", "name"],
+        ["css=#frmPesquisa\\3Anome", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "peça XXX"
+    }, {
+      "id": "1876f4b3-6313-4a7a-9402-f0fe3873efce",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmPesquisa\\3Aj_idt34 > .ui-button-text",
+      "targets": [
+        ["css=#frmPesquisa\\3Aj_idt34 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmPesquisa:j_idt34']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bbe44306-d1a6-4259-8ed3-b76209d4b2b6",
+    "name": "teste-CT05",
+    "commands": [{
+      "id": "1ec0f930-16da-485e-a8e8-71185fdb24d5",
+      "comment": "",
+      "command": "open",
+      "target": "/vendas/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e26b598b-201b-4e6b-b827-c5e3151d83b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cd2b38d-a0da-4eb2-98d2-f61b981e415e",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a82dab-74de-49b4-80ce-70483ae3f36b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cadastros",
+      "targets": [
+        ["linkText=Cadastros", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "036a24d8-c324-42ad-98e5-cb2907684bd3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-state-hover > .ui-menuitem-text",
+      "targets": [
+        ["css=.ui-state-hover > .ui-menuitem-text", "css:finder"],
+        ["xpath=//div[@id='j_idt15:j_idt16']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0da1a405-4bcb-494e-b025-451694b476d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt14:j_idt17",
+      "targets": [
+        ["id=j_idt14:j_idt17", "id"],
+        ["linkText=Peças", "linkText"],
+        ["css=#j_idt14\\3Aj_idt17", "css:finder"],
+        ["xpath=//a[@id='j_idt14:j_idt17']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt14:j_idt15']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vendas/pecas/CadastroPeca.xhtml')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Peças')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26bd6122-35e3-413e-ae28-2537c637f7ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmCadastro\\3Aj_idt37 > .ui-button-text",
+      "targets": [
+        ["css=#frmCadastro\\3Aj_idt37 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmCadastro:j_idt37']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75898eb4-0773-4f85-b8ef-a0a99fdcbf41",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmPesquisa:codigo",
+      "targets": [
+        ["id=frmPesquisa:codigo", "id"],
+        ["name=frmPesquisa:codigo", "name"],
+        ["css=#frmPesquisa\\3A codigo", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:codigo']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e78f6a-b908-4841-9c1c-50e4d7e0944c",
+      "comment": "",
+      "command": "type",
+      "target": "id=frmPesquisa:codigo",
+      "targets": [
+        ["id=frmPesquisa:codigo", "id"],
+        ["name=frmPesquisa:codigo", "name"],
+        ["css=#frmPesquisa\\3A codigo", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:codigo']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "59eee3f4-45a8-415f-8942-413650c09674",
+      "comment": "",
+      "command": "click",
+      "target": "id=frmPesquisa:nome",
+      "targets": [
+        ["id=frmPesquisa:nome", "id"],
+        ["name=frmPesquisa:nome", "name"],
+        ["css=#frmPesquisa\\3Anome", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f549bfbf-8235-4838-88ba-b8c670067ba6",
+      "comment": "",
+      "command": "type",
+      "target": "id=frmPesquisa:nome",
+      "targets": [
+        ["id=frmPesquisa:nome", "id"],
+        ["name=frmPesquisa:nome", "name"],
+        ["css=#frmPesquisa\\3Anome", "css:finder"],
+        ["xpath=//input[@id='frmPesquisa:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='frmPesquisa:painel']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "sensor B"
+    }, {
+      "id": "abbb5b58-c45a-42fe-8f54-f3e734a1c2f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmPesquisa\\3Aj_idt34 > .ui-button-text",
+      "targets": [
+        ["css=#frmPesquisa\\3Aj_idt34 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='frmPesquisa:j_idt34']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d20588b7-31bc-4cb9-9096-04c9a2007fed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b7c4b93b-b5d3-4660-a2b3-d902728834d7"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
